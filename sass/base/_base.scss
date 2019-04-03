@@ -1,0 +1,15 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+// For all images to be full width of the container
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// The container
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
