@@ -4,8 +4,17 @@
     padding-top: 8em;
     padding-bottom: 8em;
     text-align: center;
+
+    @media (min-width:725px){
+        text-align: left;
+        // padding-bottom: 1em;
+        height: 90vmin;
+        min-height: 600px;
+    }
+}
+.hero-text{
+    @media (min-width:725px){
+        margin-top: 10vmax;
+    }
 }
 
-.hero-img {
-    display: none;
-}

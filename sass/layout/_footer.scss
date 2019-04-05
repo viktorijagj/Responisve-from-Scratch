@@ -1,0 +1,44 @@
+footer {
+    background: $dark;
+    color: $text-inverse;
+    padding: 5em 0;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: url(../img/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        opacity: .05;
+
+    }
+    a{
+        color: $text-inverse;
+        text-decoration: none;
+        font-weight: $font-bold;
+    }
+    .container-footer {
+        max-width: 25em;
+    }
+
+    .social-links{
+        display: flex;
+        font-size: 2rem;
+        justify-content: space-around;
+        opacity: .8;
+        list-style: none;
+        margin: .7em 0; 
+    }
+    .nav-footer {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        // width: 80%;
+        margin: 0 auto;
+    }
+}

@@ -1,11 +1,12 @@
 $main: rgba(91, 151, 201,1);
 $secondary: rgba(9, 46, 27, 1);
-$accent: rgba(90, 11, 45, 1);
+$accent: rgb(2, 54, 30);
 
 $white: rgb(255, 255, 255);
+$dark: rgb(0, 0, 0);
 
 //Text colors
-$text-main: $secondary;
+$text-main: $main;
 $text-inverse: $white;
 $text-accent: $accent;
 $text-secondary: $main;

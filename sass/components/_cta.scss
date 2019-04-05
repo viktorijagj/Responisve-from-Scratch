@@ -1,0 +1,41 @@
+.cta{
+    background-color: $secondary;
+    background-image: url(../img/blur-branches-foliage-38537.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2em 0;
+    background-blend-mode: multiply;
+    -webkit-background-blend-mode: multiply;
+    color: $text-inverse;
+    overflow: hidden;
+    position: relative;
+
+    @media (min-width:725px){
+        padding: 10em 0;
+    
+    &::before, &::after {
+        content: '';
+        display: block;
+        background: $accent;
+        position: absolute;
+        width: 100%;
+        border: .5em solid $text-inverse;
+    }
+    &::before {
+        top:0;
+        bottom: -1em;
+        transform: skewX(55deg);
+        left: -100%;
+    }
+    &::after {
+        top:-1em;
+        bottom: 0;
+        transform: skewX(55deg);
+        right: -100%;
+    }
+    .container--cta {
+        width: 50%;
+    }
+}
+}

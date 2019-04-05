@@ -1,0 +1,17 @@
+.promo {
+    .bg-primary {
+        padding-left: 7%;
+        text-align: center; 
+        padding-top: 7.5em;
+        // padding-bottom: 7.5em;
+        @media (min-width:725px){
+            text-align: left;
+        }
+    }
+    .img-box {
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
