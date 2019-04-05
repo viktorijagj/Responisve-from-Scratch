@@ -2,20 +2,26 @@
 
 // 1.Config files and helpers(font.typography, colors..)
 @import 'abstracts/colors';
-@import 'abstracts/type';
+@import 'abstracts/typopraphy';
 
 //2.Vendor
 @import 'vendor/normalize';
 
 //3.Base styles(clearfix, box-sizing..)
 @import 'base/base';
+@import 'base/type';
 
 //4.Layout
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/grid';
+@import 'layout/nav';
+@import 'layout/home-promo';
+@import 'layout/sales-point';
+@import 'layout/footer';
 
 //5.Components(buttons..)
-
+@import 'components/buttons';
+@import 'components/cta';
 
 

@@ -1,6 +1,10 @@
 *,*::before, *::after {
     box-sizing: border-box;
 }
+body {
+    color: $text-main;
+    text-align: center;
+}
 // For all images to be full width of the container
 img {
     max-width: 100%;
@@ -9,7 +13,24 @@ img {
 
 // The container
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+.unstyled-list {
+    margin: 0;
+    padding: 0;
+    // list-style: none;
+}
+.lg-screen {
+    display: none;
+    @media (min-width:725px){
+        display: block;
+    }
+}
+
+.bg-primary{
+    background: $main;
+    color: $text-inverse;
+    padding: 5em 2.5em;
 }
